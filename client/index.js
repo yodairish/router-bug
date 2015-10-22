@@ -46,7 +46,7 @@ class Two extends Component {
   }
 }
 
-React.render((
+render((
   <Router history={ history }>
     <Route path="/two" component={ Two } />
     <Route path="/" component={ Main }>
